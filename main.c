@@ -1,7 +1,6 @@
 
 #include "busca.h"
 
-
 int main(){
 
     No* vetor = criarVetor();

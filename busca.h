@@ -23,7 +23,7 @@ int buscaPalavra(No *vetor,  char *x, int n){
 } 
     int buscaPrimeiraPosicao(No *vetor, int pos){
         
-        while(strcasecmp(vetor[pos].palavraOrdenada, vetor[pos-1].palavraOrdenada) == 0){
+        while(strcmp(vetor[pos].palavraOrdenada, vetor[pos-1].palavraOrdenada) == 0){
             
             if(pos-1 == 0){
                 return pos;
